@@ -17,6 +17,7 @@ public class Main {
         Person p1 = new Person("Bob", "Beijing", 20);
         Person p2 = new Person("", "Shanghai", 20);
         Person p3 = new Person("Alice", "Shanghai", 199);
+//        Collections.sort();
         for (Person p : new Person[]{p1, p2, p3}) {
             try {
                 check(p);

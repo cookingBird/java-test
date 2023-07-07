@@ -8,10 +8,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-test</name>
     <description>Demo project for Spring Boot</description>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.12.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
     <packaging>pom</packaging>
 
     <modules>
         <module>annotation-range-check</module>
+        <module>java-8-test</module>
     </modules>
 </project>
